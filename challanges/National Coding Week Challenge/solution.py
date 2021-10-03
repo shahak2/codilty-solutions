@@ -12,11 +12,6 @@ def solution(S):
                     i = i - 3
             else:
                 i += 1
-        i += 1
-                
+        i += 1      
     return ''.join(S)
 
-
-print(solution("abb"))
-print(solution("ababb"))
-print(solution("abbbabb"))
