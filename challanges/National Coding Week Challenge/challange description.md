@@ -3,7 +3,7 @@ replaces some consecutive sequence "abb" in S by "baa".
 Write a function that, given a string S of length N, returns the alphabetically
 largest string that can be obtained by performing the above operation any number of times.
 
-CODILITY AWARD CERTIFICATE:
+Codility certificate:
 
 https://app.codility.com/cert/view/certQTFVTM-6JC2C8598KMHCJZK/
 
