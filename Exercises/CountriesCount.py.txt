@@ -1,0 +1,18 @@
+The problem:
+A rectangular map consisting of N rows and M columns of square areas is given. Each area is painted with a certain color.
+Two areas on the map belong to the same country if both coditions are met:
+1. they have the same color.
+2. you can move from one to another by going west/south/north/east (meaning, not diagonally).
+
+Write a function that counts the number of countries.
+
+For example:
+
+
+
+Time complexity O(N*M)
+
+Side note: my first given solution used recursion. I added it as it is much more intuitive. However, when the given matrix is large
+the depth of the program's stack is too large. 
+Thus, my other and correct solution does not use recursion, but uses a stack to keep track of the relevant borders.
+Each time a cell is popped out of the stack, we add its neighbors if they have the same color.
