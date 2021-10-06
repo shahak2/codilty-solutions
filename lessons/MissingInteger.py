@@ -4,8 +4,6 @@ def solution(A):
     for i in A:
         if i > 0:
             pos_counter[i] = 1
-        else:
-            continue
     for x in range(10**7):
         if pos_counter[x] == 0:
             return x
