@@ -1,0 +1,4 @@
+Problem:
+
+Write a function that, given a non-empty binary tree T consisting of N nodes, 
+returns the length of the longest zigzag starting at the root.
