@@ -5,5 +5,9 @@ Write a function that, given an array A of N integers, recording the heights of 
 returns the maximum number of coins that can be accumulated in 
 one stack after performing any number of moves as described above.
 
-Codility award:
+#### Codility award: ####
+
+<img src="https://user-images.githubusercontent.com/47245335/136752807-77f59c73-4095-4004-9ad4-8cb63d498f4b.PNG" width="470" height="400">
+
+
 
